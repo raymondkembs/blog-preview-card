@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: var(--yellow)
+}
+.con{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    width: 346px;
+    height: auto;
+    border: 1px solid var(--gray950);
+    box-shadow: 5px 5px 0 var(--gray950);
+    border-radius: 13px;
+    background: var(--white);
+}
+.con > div{
+    margin: 5px;
+}
+.myimage{
+    width: auto;
+    height: auto;
+}
+.myimage svg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.myinfo{
+    width: 97%;
+}
+.myinfo p,
+.myinfo h3{
+    padding: 6px;
+}
+span.button{
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: yellow;
+}
+span.smalltext{
+    font-size: 12px;
+    background: white;
+}
+span.boldtext{
+    font-weight: 800;
+}
+span.plain{
+    color: var(--gray500)
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+}
+.myicon img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+.nameinfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+}
